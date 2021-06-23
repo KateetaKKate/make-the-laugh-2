@@ -30,7 +30,7 @@
         .main {
             color: black;
             height: 100%;
-            background-image: url(dust_scratches.png);
+            background-image: url(<%= image_path("dust_scratches.png") %>);
             flex: 1;
             font-family: fantasy;
         }
@@ -137,7 +137,7 @@
             <div class="item">
                 <span>
                     <p>最強の集中力</p>
-                    <img src="最強の集中力.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '最強の集中力.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="最強の集中力.m4a" type="audio/aac">
                     </audio>
@@ -146,7 +146,7 @@
             <div class="item">
                 <span>
                     <p>習慣が10割</p>
-                    <img src="習慣が10割.jpeg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '習慣が10割.jpeg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="習慣が10割.m4a" type="audio/aac">
                     </audio>
@@ -155,7 +155,7 @@
             <div class="item">
                 <span>
                     <p>神時間術</p>
-                    <img src="神時間術.jpeg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '神時間術.jpeg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="神時間術.m4a" type="audio/aac">
                     </audio>
@@ -164,7 +164,7 @@
             <div class="item">
                 <span>
                     <p>0秒思考</p>
-                    <img src="0秒思考.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '0秒思考.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="0秒思考.m4a" type="audio/aac">
                     </audio>
@@ -173,7 +173,7 @@
             <div class="item">
                 <span>
                     <p>人生を変えるお金の話</p>
-                    <img src="人生を変えるお金の話.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '人生を変えるお金の話.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="人生を変えるお金の話.m4a" type="audio/aac">
                     </audio>
@@ -182,7 +182,7 @@
             <div class="item">
                 <span>
                     <p>君は一万円札を破れるか</p>
-                    <img src="一万円札を破れるだろうか.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '一万円札を破れるだろうか.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="一万円札を破れるだろうか.m4a" type="audio/aac">
                     </audio>
@@ -191,7 +191,7 @@
             <div class="item">
                 <span>
                     <p>Fire早期リタイア術</p>
-                    <img src="Fire早期リタイア術.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'Fire早期リタイア術.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="Fire早期リタイア術.m4a" type="audio/aac">
                     </audio>
@@ -200,7 +200,7 @@
             <div class="item">
                 <span>
                     <p>無名の男が270億手に入れた物語</p>
-                    <img src="無名の男.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '無名の男.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="無名の男.m4a" type="audio/aac">
                     </audio>
@@ -209,7 +209,7 @@
             <div class="item">
                 <span>
                     <p>フルパワー</p>
-                    <img src="フルパワー.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'フルパワー.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="フルパワー.m4a" type="audio/aac">
                     </audio>
@@ -218,7 +218,7 @@
             <div class="item">
                 <span>
                     <p>人は話し方が9割</p>
-                    <img src="話し方が9割.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '話し方が9割.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="話し方が九割.m4a" type="audio/aac">
                     </audio>
@@ -227,7 +227,7 @@
             <div class="item">
                 <span>
                     <p>フリーミアム戦略</p>
-                    <img src="フリーミアム戦略.jpg" alt="写真"　width="150px" height="135px"><br>
+                    <%= image_tag 'フリーミアム戦略.jpg', :alt => '写真', :size => '210x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="フリーミアム戦略.m4a" type="audio/aac">
                     </audio>
@@ -236,7 +236,7 @@
             <div class="item">
                 <span>
                     <p>論理的MGK</p>
-                    <img src="論理的MGK.png" alt="写真"　width="150px" height="130px"><br>
+                    <%= image_tag '論理的MGK.png', :alt => '写真', :size => '240x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="論理的MGK.m4a" type="audio/aac">
                     </audio>
@@ -245,7 +245,7 @@
             <div class="item">
                 <span>
                     <p>デジタルミニマリスト</p>
-                    <img src="デジタルミニマリスト.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'デジタルミニマリスト.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="デジタルミニマリスト.m4a" type="audio/aac">
                     </audio>
@@ -254,7 +254,7 @@
             <div class="item">
                 <span>
                     <p>super human</p>
-                    <img src="super human.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'super human.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="super human.m4a" type="audio/aac">
                     </audio>
@@ -263,7 +263,7 @@
             <div class="item">
                 <span>
                     <p>脳のバグらせ方</p>
-                    <img src="脳のバグらせ方.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '脳のバグらせ方.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="脳のバグらせ方.m4a" type="audio/aac">
                     </audio>
@@ -272,7 +272,7 @@
             <div class="item">
                 <span>
                     <p>最強の仕事術</p>
-                    <img src="最強の仕事術.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '最強の仕事術.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="最強の仕事術.m4a" type="audio/aac">
                     </audio>
@@ -281,7 +281,7 @@
             <div class="item">
                 <span>
                     <p>凡人くんの人生革命</p>
-                    <img src="凡人くんの人生革命.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '凡人くんの人生革命.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="凡人の人生計画.m4a" type="audio/aac">
                     </audio>
@@ -290,7 +290,7 @@
             <div class="item">
                 <span>
                     <p>仕事が早いのにミスをしない人</p>
-                    <img src="仕事が早いのにミスをしない人.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '仕事が早いのにミスをしない人.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="仕事が早いのにミスをしない人.m4a" type="audio/aac">
                     </audio>
@@ -299,7 +299,7 @@
             <div class="item">
                 <span>
                     <p>ベンチマーク戦略</p>
-                    <img src="ベンチマーク戦略.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'ベンチマーク戦略.jpg', :alt => '写真', :size => '290x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="ベンチマーク戦略.m4a" type="audio/aac">
                     </audio>
@@ -308,7 +308,7 @@
             <div class="item">
                 <span>
                     <p>die with zero</p>
-                    <img src="die with zero.jpeg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag 'die with zero.jpeg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="die with zero.m4a" type="audio/aac">
                     </audio>
@@ -317,7 +317,7 @@
             <div class="item">
                 <span>
                     <p>金儲けのレシピ</p>
-                    <img src="金儲けのレシピ.jpg" alt="写真"　width="150px" height="136px"><br>
+                    <%= image_tag '金儲けのレシピ.jpg', :alt => '写真', :size => '100x140'%><br>
                     <audio preload="metadata" controls>
                         <source src="金儲けのレシピ.m4a" type="audio/aac">
                     </audio>

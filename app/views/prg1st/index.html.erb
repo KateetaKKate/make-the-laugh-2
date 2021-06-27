@@ -138,9 +138,8 @@
                 <span>
                     <p>最強の集中力</p>
                     <%= image_tag '最強の集中力.jpg', :alt => '写真', :size => '100x140'%><br>
-                    <audio preload="metadata" controls>
-                        <source src="最強の集中力.m4a" type="audio/aac">
-                    </audio>
+                    <%= audio_tag '最強の集中力.m4a' %>
+                    
                 </span>
             </div><br>
             <div class="item">
@@ -353,7 +352,14 @@
                     
                 </span>
             </div><br>
-            </div>     
+        </div>
+
+        <!-- audiojsの初期化 -->
+        <script>
+            audiojs.events.ready(function() {
+                var as = audiojs.createAll();
+            });
+        </script>
     </div>
 
     <div class="footer">

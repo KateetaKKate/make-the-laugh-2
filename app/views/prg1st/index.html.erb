@@ -35,6 +35,25 @@
             font-family: fantasy;
         }
 
+        /*　プレイヤー（再生バー）の高さ、幅、背景色の指定　*/
+        .audiojs { height: 20; width: 100; }
+        /*　再生・停止ボタンの高さ、幅、パディングの指定　*/
+        .audiojs .play-pause { ... }
+        /*　再生・停止ボタンなどの p 要素　*/
+        .audiojs p { ... }
+        /*　進行状態・ロードの状態を表示する部分　*/
+        .audiojs .scrubber { ... }
+        /*　進行状態を表示するバーの部分　*/
+        .audiojs .progress { ... }
+        /*　ロード状態を表示するバーの部分　*/
+        .audiojs .loaded { ... }
+        /*　再生時間の部分　*/
+        .audiojs .time { ... }
+        .audiojs .error-message { ... }
+        /*　再生している曲の情報　*/
+        .track-details { ... }
+        .track-details:before { ... }
+
         .items {
             display: flex;
             justify-content: space-between;
@@ -138,8 +157,7 @@
                 <span>
                     <p>最強の集中力</p>
                     <%= image_tag '最強の集中力.jpg', :alt => '写真', :size => '100x140'%><br>
-                    <%= audio_tag '最強の集中力.m4a' %>
-                    
+                    <%= class audiojs end audio_tag '/audios/最強の集中力.m4a' %>                  
                 </span>
             </div><br>
             <div class="item">
